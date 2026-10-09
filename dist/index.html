@@ -9,6 +9,8 @@
       try {
         document.documentElement.dataset.theme =
           localStorage.getItem('opencode.settings.theme.v1') === 'light' ? 'light' : 'dark';
+        document.documentElement.lang =
+          localStorage.getItem('opencode.settings.locale.v1') === 'zh' ? 'zh-CN' : 'en';
       } catch {}
     </script>
     <style>
@@ -31,8 +33,8 @@
         color: #2f2f2f;
       }
     </style>
-    <script type="module" crossorigin src="./assets/index-CNRa8MKA.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CmMUXP34.css">
+    <script type="module" crossorigin src="./assets/index-Bqt0dCRG.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C0F9E6ZB.css">
   </head>
   <body>
     <div id="app"></div>
