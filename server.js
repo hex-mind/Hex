@@ -16,6 +16,8 @@ const MIME = {
   '.ico': 'image/x-icon',
   '.webp': 'image/webp',
   '.woff2': 'font/woff2',
+  '.woff': 'font/woff',
+  '.ttf': 'font/ttf',
 };
 
 const server = createServer((req, res) => {
